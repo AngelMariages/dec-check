@@ -26,8 +26,8 @@ var stores = map[string]string{
 	"0070032800328": "Gran Via 2 - L'Hospitalet",
 }
 var availabilityIcon = map[string]string{
-	"noStock": "🚫",
-	"inStock": "✅",
+	"noStock": "no 🚫",
+	"inStock": "in ✅",
 }
 
 type availabilityResponse struct {
