@@ -132,8 +132,12 @@ func getURLWithParams() string {
 	params := url.Values{}
 
 	params.Add("storeIds", "0070014200142,0070008600086,0070062300623,0070054700547,0070187701877,0070025700257,0070140601406,0070189601896,0070011400114,0070032800328")
-	params.Add("skuId", "2524420")
-	params.Add("modelId", "8491831")
+	// params.Add("skuId", "2524420")
+	// params.Add("modelId", "8491831")
+
+	params.Add("skuId", "2735841")
+	params.Add("modelId", "8534530")
+
 	params.Add("displayStoreDetails", "false")
 
 	base.RawQuery = params.Encode()
